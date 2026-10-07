@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>DAVI VAPE — Seu vape, do seu jeito</title>
+    <meta name="description" content="DAVI VAPE — pods, descartáveis, líquidos, resistências e acessórios com entrega em Belo Horizonte." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link id="brx-fonts" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function(){
+        function send(message, stack){
+          try{ parent.postMessage({__forge:true, type:'forge-error', message:String(message||'erro'), stack:String(stack||'')}, '*'); }catch(e){}
+        }
+        window.addEventListener('error', function(e){ send(e.message, e.error && e.error.stack); });
+        window.addEventListener('unhandledrejection', function(e){ var r=e.reason; send(r && (r.message||r), r && r.stack); });
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

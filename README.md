@@ -1,4 +1,8 @@
 # Davi Vapes — E-commerce + PDV + Painel Administrativo
+🌐 Demonstração
+
+*Site em produção:*  
+https://davi-vape.brixly.com.br/
 
 Sistema comercial completo desenvolvido para centralizar a operação de uma loja em uma única aplicação.
 
